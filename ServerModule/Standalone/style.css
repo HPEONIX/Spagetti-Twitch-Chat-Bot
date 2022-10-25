@@ -1,0 +1,46 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+*,
+*::after,
+*::before {
+    background-color: transparent;
+    color: white;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+}
+
+#quiz-container {
+    background-color: #0A0708;
+    margin: 5px;
+    padding: 5px;
+}
+
+.quiz {
+    color: white;
+    background-color: #0A0708;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.option {
+    color: #B1B1B1;
+}
+
+.option-container {
+    border-radius: 10px;
+    border: 1px solid #B1B1B1;
+    margin: 5px;
+    padding: 10px;
+}
+
+.option-bar {
+    font-size: small;
+    border-radius: 5px;
+    background-color: #B1B1B1;
+}
